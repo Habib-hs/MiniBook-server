@@ -1,10 +1,10 @@
 const env = require("dotenv");
 const path = require("path");
 const mongoose = require("mongoose");
-const app = require("./app");
+const app = require("./src/app");
 
 // environment variable/constant
-env.config({ path: "config.env" });
+env.config({ path: ".env" });
 //mongodb conection
 
 mongoose
